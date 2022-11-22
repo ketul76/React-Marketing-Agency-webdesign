@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.carousel-caption h1{
+  font-size: 5vw;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+.header img{
+  width: 50%;
+}
+.header{
+  background-color: rgba(221, 215, 215, 0.726);
+}
+.about{
+  background-color: rgba(201, 183, 183, 0.356);
+}
+.services{
+  background-color: rgba(201, 183, 183, 0.692);
+}
+.contact .btn{
+  background-color: rgba(7, 163, 90, 0.932);
+}
+
+
+
+/* 
+src > page > home = [home.js]
+src  > component > Home > [Home.js and Home.css]
+src > page > layout = all component
+*/
